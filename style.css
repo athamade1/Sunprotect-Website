@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;  /*grammatoseira*/
+}
+
+.bluespan{
+    color: #42A2DA;
+}
+
+p.mainblackletters{     /*ta kiria mayra grammata pou vazw sta keimena*/
+    font-size: 13px;
+    
+}
+
+
+
+/*HEADER MENU STARTS HERE*/
+.logo{
+    width: 40%;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 11px;
+    
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+/*HEADER MENU ENDS HERE*/
+
+
+
+
+/*div container gia 1o section HOME PAGE*/
+
+.homehero{ 
+    background-image: url(images/hero.jpg);     /*background image*/
+    background-repeat: no-repeat;               /*background to not repeat*/
+    background-size: cover;                     /*background to cover all div container*/
+    background-position: center center;         /*background position x and y to be center*/
+    background-attachment: fixed;               /*background to stay still after scrolling*/
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+}
+
+.herosection{         /*class gia ola ta grammata sto hero section*/   
+    color: #fff;    /*aspro xroma se ola ta class="herosection"*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+h1.herosection{
+    font-size: 50px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+p.herosection{
+    font-size: 12px;
+}
+
+
+
+
+/*div container gia 2o section HOME PAGE*/
+
+.secondsection{   
+    width: 100%;
+
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+    align-items: center; /* Για κάθετη κεντράρισμα */
+    justify-content: center; /* Για οριζόντια κεντράρισμα */
+}
+.box{                      /*to gkri koutaki*/
+    box-sizing: border-box;
+    background-color: #E8E8E8;
+
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+
+    width: 80%;
+    margin: 0 auto;    /*Gia na paei to koutaki sto kentro*/
+    overflow: hidden;
+
+}
+
+h3.secondsection{
+    text-align: center;
+}
+
+.pergola1img{   /*ayth einai i eikona sto 2o section toy Home page*/
+    width: 50%;
+    float:left; /*kanei ti fotografia na einai aristera kai sto idio ipsos me to keimeno*/
+    
+}
+
+#secondsectionboxletters{   /*ta grammata mesa sto gkri box*/
+    padding-left: 390px;
+    padding-right: 20px;
+}
