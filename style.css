@@ -149,3 +149,40 @@ h3.secondsection{
     padding-left: 390px;
     padding-right: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THIRD SECTION STARTS HERE (DIVIDER) */
+.dividerimage{
+    background-image: url(images/divideimage.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background-repeat: no-repeat;               /*background to not repeat*/
+    background-size: cover;                     /*background to cover all div container*/
+    background-position: center center;         /*background position x and y to be center*/
+    background-attachment: fixed;               /*background to stay still after scrolling*/
+
+}
