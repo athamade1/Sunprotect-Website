@@ -102,19 +102,54 @@ h1.servicesheroletters{
 /* SECOND SECTION STARTS HERE */
 .servicessecondsection{
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 90%;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 100px;
+}
+
+.servicessecondsection p{
+    padding: 20px;
+    color: black;
+    font-size: 13px;
 }
 
 .secondsectioncontainer{
-    margin: 0 auto;    /*Gia na paei to koutaki sto kentro*/
-    width: 60%;
+    padding-left: 20px;    /*Gia na paei to koutaki sto kentro*/
+    width: 100%;
+    color: #42A2DA;
+    padding-bottom: 30px;
+    
 }
 
 li{                             
-    font-size: 13px;    /*ALLAKSE EDW*/
+    font-size: 25px;    /*ALLAKSE EDW*/
     
+}
+
+
+
+.services-list {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+}
+
+.services-list li {
+    position: relative;
+    padding-left: 25px; /* Space for the custom bullet */
+    margin-bottom: 10px; /* Space between items */
+    line-height: 1.5; /* Adjust line-height if needed for alignment */
+}
+.services-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%; /* Position the bullet vertically in the middle */
+    transform: translateY(-50%); /* Adjust to center the bullet */
+    width: 15px; /* Width of the custom bullet */
+    height: 15px; /* Height of the custom bullet */
+    background-color: #42A2DA; /* Color of the custom bullet */
+    border-radius: 50%; /* Make it a circle */
 }
 
 

@@ -74,7 +74,7 @@ nav {
 
 /* HERO SECTION */
 .aboutherosection{ 
-    background-image: url(images/about.jpg);     /*background image*/
+    background-image: url(images/about2.jpg);     /*background image*/
     background-repeat: no-repeat;               /*background to not repeat*/
     background-size: cover;                     /*background to cover all div container*/
     background-position: center center;         /*background position x and y to be center*/
