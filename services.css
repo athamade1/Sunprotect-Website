@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;  /*grammatoseira*/
+}
+
+.bluespan{
+    color: #42A2DA;
+}
+
+p.mainblackletters{     /*ta kiria mayra grammata pou vazw sta keimena*/
+    font-size: 13px;
+    
+}
+
+
+
+/*HEADER MENU STARTS HERE*/
+.logo{
+    width: 40%;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 11px;
+    
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+/*HEADER MENU ENDS HERE*/
+
+/* HERO SECTION */
+.servicesherosection{ 
+    background-image: url(images/pergola1.jpg);     /*background image*/
+    background-repeat: no-repeat;               /*background to not repeat*/
+    background-size: cover;                     /*background to cover all div container*/
+    background-position: center center;         /*background position x and y to be center*/
+    background-attachment: fixed;               /*background to stay still after scrolling*/
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+}
+
+.servicesheroletters{    /*OI TITLOI STO HERO SECTION TOU ABOUT*/
+    color: #fff;
+}
+h3.servicesheroletters{
+    font-size: 20px;
+    text-align: center;
+}
+h1.servicesheroletters{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+/* SECOND SECTION STARTS HERE */
+.servicessecondsection{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.secondsectioncontainer{
+    margin: 0 auto;    /*Gia na paei to koutaki sto kentro*/
+    width: 60%;
+}
+
+li{                             
+    font-size: 13px;    /*ALLAKSE EDW*/
+    
+}
+
+
+
+/* THIRD SECTION STARTS HERE (DIVIDER) */
+.dividerimage{
+    background-image: url(images/divideimage.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background-repeat: no-repeat;               /*background to not repeat*/
+    background-size: cover;                     /*background to cover all div container*/
+    background-position: center center;         /*background position x and y to be center*/
+    background-attachment: fixed;               /*background to stay still after scrolling*/
+
+}
