@@ -131,3 +131,182 @@ li{
     background-attachment: fixed;               /*background to stay still after scrolling*/
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER STARTS HERE*/
+footer {
+    background-color: #323232;
+    padding: 30px 0;
+    
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: center; 
+    gap: 90px;
+    width: 90%;
+    max-width: 1200px;
+    padding: 0 20px; 
+    
+}
+
+.first, .second, .third {
+    flex: 1; /* Make divs take equal space */
+    white-space: nowrap; /* Prevent text wrapping */
+    padding: 0 20px; /* Add padding for spacing between divs */
+}
+
+.first {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column; /* Stack children vertically */
+    text-align: center; /* Center text inside */
+}
+
+.logoimg {
+    margin-bottom: 5px; /* Space between logo and paragraph */
+    max-width: 80%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.copyrights {
+    color:#ffffff;
+    width: 80%;
+    text-align: center;
+    line-height: 1.5;
+    list-style: none; 
+}
+
+.copyrights a {
+    color : #42A2DA;
+    text-decoration: none;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    justify-content: center;
+    text-align: center; /* Center text inside */
+}
+
+.contact-links {
+    list-style: none;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 10px;
+    padding: 0; 
+}
+
+
+.contact-links i {
+    color: #42A2DA;
+}
+
+
+.contact-links li {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.contact-links li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    text-decoration:none;
+    color : #42A2DA;
+}
+
+.contactf {
+    font-size: 28px;
+    color: white;
+    margin: 0; /* Remove margin to prevent unwanted spacing */
+}
+
+.policy {
+    list-style: none;
+    display: flex;
+    font-size: 19px;
+
+}
+
+.policy a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.policy a:hover {
+    text-decoration:none;
+    color : #42A2DA;
+}
+
+
+.policy i {
+    color: #42A2DA !important;
+    padding: 5px;
+}
+
+
+
+.third i {
+    color:#ffffff;    
+}
+
+.link {
+    font-size: 28px;
+    color: white;
+}
+
+.social-icons {
+    margin: 30px 0; /* Add some spacing above and below the icons */
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    gap: 30px;
+}
+
+.social-icons a {
+    display: inline-flex; /* Allows centering and sizing */
+    align-items: center; /* Vertically center the icon */
+    justify-content: center; /* Horizontally center the icon */
+    width: 30px; /* Set width of the circle */
+    height: 30px; /* Set height of the circle */
+    border-radius: 50%; /* Make the background circular */
+    background-color: transparent; /* Default background */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    background-color: #42A2DA; /* Blue circle background on hover */
+    color: #ffffff; /* Change icon color to white on hover */
+}
+.social-icons a i {
+    font-size: 17px; /* Adjust icon size */
+    color: #ffffff; /* Default icon color */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+
+/*FOOTER ENDS HERE*/
